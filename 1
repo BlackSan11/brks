@@ -1,0 +1,132 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:brok="http://eis.rsb.ru/api/Brokers">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <brok:sendSuperShortFormRequest>
+         <authInfo>
+            <!--Optional:-->
+            <!--type: stringLength16-->
+            <brokerSalesPointId>gero etgero etge</brokerSalesPointId>
+            <!--type: stringLength16-->
+            <salesPointId>sonoras imperios</salesPointId>
+            <!--type: stringLength150-->
+            <userId>quae divum incedoquae divum incedoquae divum incedoquae divum incedoquae divum incedoquae divum incedoquae divum incedoquae divum incedoquae divum inc</userId>
+            <!--type: stringLength150-->
+            <userFullName>verrantque per aurasverrantque per aurasverrantque per aurasverrantque per aurasverrantque per aurasverrantque per aurasverrantque per aurasverrantque</userFullName>
+         </authInfo>
+         <!--type: long-->
+         <applicationId>10</applicationId>
+         <!--type: string-->
+         <applicationType>per auras</applicationType>
+         <superShortForm>
+            <superShortClientInfo>
+               <!--type: string-->
+               <lastName>circum claustra</lastName>
+               <!--type: string-->
+               <firstName>nimborum in</firstName>
+               <!--Optional:-->
+               <!--type: string-->
+               <patronymicName>foedere certo</patronymicName>
+               <!--Optional:-->
+               <!--type: string-->
+               <previousLastName>profundum quippe ferant</previousLastName>
+               <!--Optional:-->
+               <!--type: int-->
+               <gender>3</gender>
+               <!--type: date-->
+               <birthDate>2009-10-14</birthDate>
+               <!--type: string-->
+               <passportSeries>flammato secum dea</passportSeries>
+               <!--type: string-->
+               <passportNumber>profundum quippe ferant</passportNumber>
+               <!--Optional:-->
+               <!--type: date-->
+               <passportIssueDate>2018-02-04</passportIssueDate>
+               <!--Optional:-->
+               <!--type: string-->
+               <previousPassportSeries>hoc metuens</previousPassportSeries>
+               <!--Optional:-->
+               <!--type: string-->
+               <previousPassportNumber>ac vinclis</previousPassportNumber>
+               <!--type: int-->
+               <averageMonthlyIncome>3</averageMonthlyIncome>
+               <!--type: string-->
+               <mobilePhone>speluncis abdidit</mobilePhone>
+               <!--Optional:-->
+               <!--type: string-->
+               <clientEmail>aris imponet honorem</clientEmail>
+               <!--Optional:-->
+               <!--type: string-->
+               <codeWord>praeterea aut</codeWord>
+               <!--type: int-->
+               <isClientFPO>3</isClientFPO>
+               <!--Optional:-->
+               <!--type: int-->
+               <isBadClient>3</isBadClient>
+               <!--Optional:-->
+               <!--type: int-->
+               <blackListReasonId>3</blackListReasonId>
+               <!--Optional:-->
+               <!--type: int-->
+               <isBadDocument>3</isBadDocument>
+               <!--type: int-->
+               <isCreditBureauAllowed>3</isCreditBureauAllowed>
+               <!--Optional:-->
+               <!--type: base64Binary-->
+               <clientPhoto>cid:330340252956</clientPhoto>
+            </superShortClientInfo>
+            <productsInfo>
+               <!--1 or more repetitions:-->
+               <productInfo>
+                  <!--type: string-->
+                  <productId>claustra fremunt</productId>
+                  <!--type: string-->
+                  <productGroupId>imperio premit</productGroupId>
+                  <!--type: string-->
+                  <productUnitPrice>quisquam numen</productUnitPrice>
+                  <!--Optional:-->
+                  <!--type: string-->
+                  <productBrand>ac vinclis</productBrand>
+                  <!--Optional:-->
+                  <!--type: string-->
+                  <productModel>ac vinclis</productModel>
+               </productInfo>
+            </productsInfo>
+            <loanPreferences>
+               <!--type: decimal-->
+               <initialPayment>1000.00</initialPayment>
+               <!--type: int-->
+               <creditPeriod>3</creditPeriod>
+               <!--type: decimal-->
+               <monthlyPayment>1000.00</monthlyPayment>
+               <!--type: int-->
+               <isEmailInfoSubscription>3</isEmailInfoSubscription>
+               <!--Optional:-->
+               <!--type: int-->
+               <isSmsPackage>3</isSmsPackage>
+               <!--Optional:-->
+               <!--type: int-->
+               <productCode>3</productCode>
+               <!--Optional:-->
+               <!--type: string-->
+               <insuranceProgramType>pectore flammas</insuranceProgramType>
+               <!--Optional:-->
+               <!--type: string-->
+               <productsBoxedId>pectore flammas</productsBoxedId>
+               <!--Optional:-->
+               <!--type: int-->
+               <periodicChangePayDate>3</periodicChangePayDate>
+            </loanPreferences>
+         </superShortForm>
+         <!--Optional:-->
+         <scannedDocuments>
+            <!--1 or more repetitions:-->
+            <scannedDocument>
+               <!--type: base64Binary-->
+               <binaryData>cid:702611192337</binaryData>
+               <!--type: scannedDocumentType - enumeration: [CLIENT_PHOTO,PASSPORT_MAIN,PASSPORT_REGISTRATION,PASSPORT_MARITAL_STATUS,PASSPORT_CHILDREN,PASSPORT_PREVIOUS,PASSPORT_ADDITIONAL_1,PASSPORT_ADDITIONAL_2,PASSPORT_ADDITIONAL_3,PERSONAL_DATA_PERMISSION_1,PERSONAL_DATA_PERMISSION_2,PERSONAL_DATA_PERMISSION_3,PERSONAL_DATA_PERMISSION_4,CLIENT_REQUEST_1,CLIENT_REQUEST_2,CLIENT_REQUEST_3,APPLICATION_FORM_1,APPLICATION_FORM_2,APPLICATION_FORM_3,COUNTERPARTY_FORM_1,COUNTERPARTY_FORM_2,COUNTERPARTY_FORM_3,INSURANCE_APPLICATION_1,INSURANCE_APPLICATION_2,JOB_INSURANCE_FORM,LIFE_INSURANCE_FORM,ADDITIONAL_SERVICES,CERTIFICATE_BOX_1,CERTIFICATE_BOX_2,CERTIFICATE_BOX_3,CERTIFICATE_BOX_4,CERTIFICATE_BOX_5,AGREEMENT_LIEN,INDIVIDUAL_TERMS_1,INDIVIDUAL_TERMS_2,INDIVIDUAL_TERMS_3,INDIVIDUAL_TERMS_4,ACCOUNT_POWER_OF_ATTORNEY,PERSONAL_DATA_CHANGE_1,PERSONAL_DATA_CHANGE_2,PERSONAL_DATA_CHANGE_3,GOODS_SPECIFICATION,PAYMENT_PLAN_1,PAYMENT_PLAN_2,PAYMENT_PLAN_3,PAYMENT_PLAN_4,SCAN_AGREEMENT]-->
+               <documentType>JOB_INSURANCE_FORM</documentType>
+            </scannedDocument>
+         </scannedDocuments>
+      </brok:sendSuperShortFormRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
